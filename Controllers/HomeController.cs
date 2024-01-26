@@ -25,5 +25,7 @@ namespace pipelines_dotnet_core.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        //Pipeline Test
     }
 }
